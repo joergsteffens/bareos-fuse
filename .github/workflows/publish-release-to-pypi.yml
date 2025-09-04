@@ -31,7 +31,7 @@ jobs:
         path: dist/
 
     - name: "Publish to pypi.org"
-      uses: pypa/gh-action-pypi-publish@v1.1.0
+      uses: pypa/gh-action-pypi-publish@v1.13.0
       with:
         #repository_url: https://test.pypi.org/legacy/
         #repository_url: https://pypi.org/legacy/
